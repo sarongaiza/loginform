@@ -1,0 +1,118 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+
+    /* Center using Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    padding: 16px;
+}
+
+/* Login Card */
+.login-card {
+    max-width: 350px;
+    margin: auto;
+    padding: 24px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    width: 80px;
+    margin-bottom: 16px;
+}
+
+/* Title */
+.login-card h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #333;
+}
+
+/* Forgot password */
+.forgot {
+    display: block;
+    margin-top: 12px;
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Hover effect */
+.forgot:hover {
+    text-decoration: underline;
+}
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 480px) {
+    .login-card {
+        padding: 20px;
+    }
+
+}
+    .logo {
+        width: 70px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+    
+    .logo-container {
+  width: 90px;
+  height: 100px;
+  align-items: center;
+  color: black;
+}
